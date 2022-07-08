@@ -64,3 +64,26 @@ body {
     margin-bottom: -10px;
     
   }
+
+ .projects{
+    border-radius: 50%;
+    border: 5px solid blue;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    font-size:  60px ;
+  
+  }
+
+  a:hover {
+    color: hotpink;
+  }
+  .prj{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(15, 176, 15);
+  }
+
+  .contact{
+    color: blue;
+  }
