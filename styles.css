@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+  }
+
+  body {
+    background-color:#1d1d1d;;
+    color: aliceblue;
+  }
+  
+  .container {
+    display: flex;
+    height: 100%;
+    
+   
+  }
+  
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    padding: 20px;
+    background-color:#181818;
+    height: 100vh;
+    
+  }
+
+  .sidebar a {
+
+    color:#909096;
+  }
+
+  h1, h2, h3 {
+    color: #08fdd8;
+  }
+  
+  
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    width: 80%;
+    padding-left: 50px;
+    /* background-color:rgba(0, 0, 0, 0.423); */
+    height: 100vh;
+    color: aliceblue;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-info > div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-info > div > p {
+    margin-right: 10px;
+    font-size: 20px;
+    color: azure;
+  }
+
+  .contact-info a {
+    color: azure;
+    font-size: 20px;
+  }
+
+  .contact-info a:hover {
+    color: blue;
+  }
+
+
+  .project a {
+    color: #08fdd8;
+    font-size: 22px;
+  }
+
+  .intro {
+    max-width: 600px;
+   font-size: 26px;
+  }
+
+  .header {
+    color: #08fdd8;
+    
+    font-size: 42px;
+    
+  }
+
+  .container{
+    display: flex;
+  }
+
+  .tagcloud--item:hover {
+    color: #FFC300 ;
+  }
+
+  .sphere-wrapper {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-45%);
+  }
+
+  .tagcloud {
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+  }
+
+  .sphere-wrapper {
+    max-width: 100%;
+  }
+  
+  
+  .workh{
+    font-size: 28px;
+  }
+
+  .workP{
+    font-size: 20px;
+  }
+
+  .skills{
+    font-size: 24px;
+  }
+
+  .skillsP{
+
+    font-size: 20px;
+
+  }
+
+  .skillsUl{
+    font-size: 20px;
+  }
+
+  .edu {
+    font-size: 28px;
+  }
+
+  .education{
+    font-size: 20px;
+  }
